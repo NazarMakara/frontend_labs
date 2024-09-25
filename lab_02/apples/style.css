@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:url(/images/apples.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px 
+}
+
+nav {
+    margin: 20px;
+    float: right;
+}
+
+nav {
+    margin: 0px;
+    padding: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    padding: 5px 30px 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+h1{
+    text-align: center;
+    margin: 100px;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 175px 0px 0px 0px ;
+}
+
+h3{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 0;
+    padding: 35px;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+.button{
+    width: 200px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.4);
+    border: 1px solid white;   
+}
+
+.flex{
+    justify-content: left;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.flex .left-col {
+    font-size: 30px;
+    margin: 100px 100px 0 100px;
+
+}
+
+.flex .right-col{
+    margin: 100px 100px 0 200px;
+    font-size: 16px;
+}
+
+main{
+    margin: 100px;
+}
+
+.reverce{
+    flex-direction: row-reverse;
+}
+
+.news{
+    background-color: white;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+    padding: 40px;
+}
+
+.p3{
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+    .button2{
+        width: 100px;
+        height: 56px;
+            text-align: center;
+            padding: 8px;
+            color: white;
+            border: 1px solid white;
+            background-color:rgba(0, 0, 0, 0.5);
+            color: white;
+}
+
+.end{
+    padding: 0 50px;
+    justify-content: center; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:20px;    
+    .parag{
+        padding: 50px;
+        width: 230px;
+    }
+}
+
+h6{
+    color: lightslategray;
+}

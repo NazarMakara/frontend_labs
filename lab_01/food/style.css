@@ -1,0 +1,49 @@
+header {
+    background: url(/images/header.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+header h1 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    padding: 100px;
+}
+
+body{
+    margin: 0 75px;
+}
+
+main {
+    padding: 30px 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+img{
+    width: 750px;;
+}
+
+h1{
+    text-align: left;
+}
+
+aside{
+    text-align: right;
+    img{
+        width: 400px;
+    }
+}
+
+button {
+    padding: 8px;
+    border: 1px solid; color:red;
+    border-radius: 30px;
+    background: white;
+    color: red
+}
