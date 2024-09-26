@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url(/images/car-future.jpg);
+    background: url("images/car-future.jpg");
     background-repeat: no-repeat center;
     background-size: cover;
     height: 875px;
