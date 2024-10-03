@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+main {
+    .map {
+        background-image: url(images/Maps.png);
+        width: 100%;
+        background-size: cover;
+        height: 600px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        height: 540px;
+
+        .left_text {
+            color: white;
+
+            h1 {
+                font-size: 70px;
+                line-height: 70px;
+            }
+        }
+
+        .right_text {
+            color: white;
+
+            h2 {
+                font-size: 35px;
+                line-height: 35px;
+                color: #D5966C;
+            }
+
+            p {
+                width: 540px;
+                font-size: 20px;
+                line-height: 32px;
+            }
+        }
+    }
+
+    button {
+        position: absolute;
+        background: none;
+        border: none;
+        display: flex;
+        left: 100px;
+        top: 0;
+        width: 300px;
+        height: 72px;
+
+
+        .button_right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            line-height: 24px;
+            width: 230px;
+            height: 72px;
+            color: white;
+            background-color: black;
+        }
+
+        .button_left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            width: 70px;
+            height: 70px;
+            color: white;
+            background-color: #D5966C;
+        }
+
+        &:hover {
+            .button_right {
+                background-color: #D5966C;
+            }
+            .button_left {
+                background-color: black;
+            }
+        }
+    }
+}
+
+footer {
+    .footer {
+        background-color: #D5966C;
+        height: 240px;
+        display: flex;
+        align-items: center;
+
+        .footer_text {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            color: #151515;
+
+            p {
+                width: 430px;
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+    }
+}
