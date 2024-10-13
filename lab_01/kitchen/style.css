@@ -1,146 +1,143 @@
 body {
-    background-image: url("images/dark-wood.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Lato',sans-serif;
-    font-size: 14px;
-    color: #333333;
-    margin: 0px;
-    Padding: 0px;
-    height: 100vh;
-}
-header {
-    width: 80%;
-    height: 150px;
-    background-image: url("images/header.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    font-family: 'Lato',
-    sans-serif;
-    font-size: 14px;
-    color: #333333;
-    margin: 0px;
-    Padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background: url(images/dark-wood.jpg);
+    background-repeat: cover;
+    color: #333;
+	width: 1000px;
+	margin: auto;
 }
 
-h1{ 
-    size: 80px;
-    Font-family: 'Lato', sans-serif;
-    Margin: 30px;
-    text-align: end;
-    Color: #000000;
-    font-size: 60px;
-    }
+header {
+    background: url(images/header-page.jpg);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+h1 {
+    font-size: 32px;
+}
 
 nav {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    width: 80%;
-    color: black;
-    background-image: url(/images/header-page.jpg);
-    background-size: 100%;
-    height: auto;
-    background-repeat: no-repeat;
+    background-color: white;
+    text-align: left;
+    margin: 0px auto;
 }
 
-ul{
-    margin: 0px;
-    margin: 7px;
+nav ul {
+	background: url(images/header-page.jpg);
+	padding: 0px;
+	height: 25px;
+	margin: 5px auto;
 }
 
-li {
-    margin: 0px;
-    display: inline;
-    margin-top: 0px;
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+	vertical-align: middle;
 }
-a {
-    margin-top: 0px;
-    margin: 10px;
-    font-size: 18px;
+
+nav ul li a {
     text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
     color: white;
 }
 
 main {
-    width: 80%;
-    background: white;
-    height: 100%;
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+}
+
+.courses {
+    align-items: center;
+    background-color: white;
+	display: block;
 }
 
 article {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+    margin-bottom: 20px;
+	width: 100%;
+	display: flex;
 }
 
-img {
-    min-width: 330px;
+article figure {
+    margin: 0;
+    padding: 10px;
+	display: inline;
+	border: 1px solid #b5b5b5;
+	margin: 5px;
 }
+
+article figure img {
+    width: auto;
+    height: auto;
+	
+}
+
+
+article div {
+	display: inline;
+}
+
+
+article div p {
+	display: inline;
+}
+
+figcaption {
+    text-align: left;
+    margin-top: 5px;
+    height: auto;
+	color: #67676d
+}
+
 
 h2 {
-    Font-family: 'Lato', sans-serif;
-    margin-top: 25px;
-    text-align: left;
-    Color: #000000;
-    font-size: 32px;
+    color: #67676d
 }
 
+
 h3 {
-    size: 80px;
-    Font-family: 'Lato', sans-serif;
-    Margin: 0px;
-    text-align: left;
-    color: #d49f18;
-    font-size: 20px;
+    color: #dbc57a
 }
 
 p {
-    size: 80px;
-    Font-family: 'Lato', sans-serif;
-    margin: 0;
-    text-align: left;
-    color: #5a5a5a;
-    font-size: 15px;
-}
-
-.popular-recipes {
-h2 {
-    color: #d820ad;
-    font-weight: 10px;
-    font-size: 30px;
-}
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    font-family: 'lato', sans-serif;
-    font-size: 21px;
-}
-
-li {
-    list-style: none;
-    margin-bottom: 30px;
+    color: #67676d
 }
 
 aside {
-    padding-right: 20px;
+    width:30%;
+	padding: 5px;
+    background-color: #fff;
+	border-left: 1px solid #9d9d9d;
 }
 
-footer{
-    background-color: #ccc;
-    width: 100%;
-    height: 50px;
-    font-size: 16px;
-    color: #333333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+.popular-recipes h2 {
+    margin-bottom: 0px;
+	color: #df6583;
+}
+
+.popular-recipes ul {
+    list-style: none;
+	padding: 10px;
+}
+
+.popular-recipes li a {
+    display: block;
+    color: #df6583;
+	padding: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+	border-bottom: 1px solid #9d9d9d;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #444;
+    color: white;
 }

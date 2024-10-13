@@ -60,3 +60,37 @@ h2{
 .reverse {
     flex-direction: row-reverse;
 }
+@media (max-width: 599px) {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    .flex {
+        background-color: white;
+        color: black;
+    }
+
+    h1 {
+        color: black;
+    }
+
+    .highlight {
+        color: black;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .flex {
+        grid-template-columns: 1fr; 
+    }
+
+    .flex {
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+
+    .flex {
+        order: 1;
+    }
+}
