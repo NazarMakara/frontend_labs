@@ -73,13 +73,17 @@ h4{
     text-align: left;
 }
 
-.button{
+.button {
     width: 200px;
-    margin: 100px auto;
+    height: 50px;
     text-align: center;
-    padding: 20px;
-    background-color:rgba(0, 0, 0, 0.4);
-    border: 1px solid white;   
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 100px 0 0 650px;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: rgb(206, 206, 206);
 }
 
 .flex{
@@ -151,4 +155,11 @@ main{
 
 h6{
     color: lightslategray;
+}
+
+.button5 {
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(206, 206, 206);
 }
