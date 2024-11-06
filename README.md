@@ -10,4 +10,12 @@ https://nazarmakara.github.io/frontend_labs/lab_03/planets/
 
 https://nazarmakara.github.io/frontend_labs/lab_04/museum/
 
-https://nazarmakara.github.io/frontend_labs/lab_05/
+https://nazarmakara.github.io/frontend_labs/lab_06/
+
+https://nazarmakara.github.io/frontend_labs/lab_07/
+
+https://nazarmakara.github.io/frontend_labs/lab_08/
+
+https://nazarmakara.github.io/frontend_labs/lab_09/
+
+https://nazarmakara.github.io/frontend_labs/lab_10/
