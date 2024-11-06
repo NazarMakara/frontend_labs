@@ -82,7 +82,7 @@ let agents = {
 }
 
 function show(Key) {
-    window.location.href = `2index.html?planet=${Key}`;
+    window.location.href = `2index.html?agent=${Key}`;
 }
 
 function showDetails(Key) {
