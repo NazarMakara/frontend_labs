@@ -1,36 +1,40 @@
 body {
-    flex-direction: column;
+    background-color: seashell;
+    display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 1000px;
-    background-color: white;
-    font-size: 14px;
+    height: 700px;
+    margin: 0;
 }
 
-.folder {
+.board {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin: 30px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
     display: flex;
-    align-items: center;
-    margin: 10px 0;
-    padding: 10px;
-    background-color:white;
-    border-radius: 5px;
-    width: 250px;
+    font-size: 75px;
+    color: white;
+    border-radius: 100px;
 }
 
-.folder img {
-    width: 32px;
-    height: 32px;
-    margin-right: 10px;
+.card.flipped {
+    background-color: white;
 }
 
-.folder_data {
-    display: none;
-    margin-left: 40px;
-    list-style-type: none;
-    padding-left: 0;
+.restart {
+    padding: 10px 20px;
+    background-color: slategray;
+    color: white;
 }
 
-a{
-    color: #333;
-    text-decoration: none;
+.restart:hover {
+    background-color: red;
 }

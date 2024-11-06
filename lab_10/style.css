@@ -1,40 +1,51 @@
 body {
-    background-color: seashell;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    margin: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
 }
 
-.board {
-    display: grid;
-    grid-template-columns: repeat(6, 100px);
-    grid-gap: 15px;
-    justify-content: center;
-    margin: 30px;
+h1{
+  font-size: 25px;
+  color: black;
 }
 
-.card {
-    width: 100px;
-    height: 100px;
-    background-color: gray;
-    display: flex;
-    font-size: 75px;
-    color: white;
-    border-radius: 100px;
+h2{
+  font-size: 40px;
 }
 
-.card.flipped {
-    background-color: white;
+h3{
+  font-size: 17px;
 }
 
-.restart {
-    padding: 10px 20px;
-    background-color: slategray;
-    color: white;
+.ct, .t{
+  display: flex;
+  cursor:pointer;
 }
 
-.restart:hover {
-    background-color: red;
+.image {
+  width: 75%;
+  height: 75%;
+}
+
+.name {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.info {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
+  border-collapse: collapse;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  display: flex;
+  margin: 0 0 0 50px;
 }
