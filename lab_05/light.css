@@ -1,23 +1,25 @@
-
 body {
     background-color: gray;
     color: white;
 }
 
-.main {
-    display: flex;
-    overflow: hidden;
-}
-
 .sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
     width: 20%;
     padding: 20px;
     min-width: 200px;
     background-color: white;
     box-shadow: 0 0 10px gray;
+    z-index: 10;
+}
+
+.main {
+    margin-left: 20%;  
+    display: block;
+    padding: 20px;
 }
 
 .sidebar img {
@@ -25,23 +27,26 @@ body {
     height: auto;
     max-width: 200px;
     border-radius: 15px;
+    display: block;
+    margin: 0 auto;
 }
-
 .sidebar h2 {
     font-size: 25px;
-    margin: 15px 0 0 0;
+    margin: 0;  
     color: gray;
+    text-align: center; 
 }
 
 .sidebar nav ul {
     width: 100%;
-    margin: 30px 0 0 0;
+    margin: 20px 0 0 0;
     list-style: none;
+    padding: 0;
     text-align: center;
 }
 
 .sidebar nav ul li {
-    margin: 10px 0 0 0;
+    margin: 10px 0;
 }
 
 .sidebar nav ul li a {
@@ -61,6 +66,7 @@ body {
     flex-grow: 1;
     overflow-y: auto;
     box-shadow: 0 0 10px black;
+    padding-left: 240px; 
 }
 
 .main-content h1,
@@ -74,15 +80,26 @@ body {
     color: gray;
 }
 
-.pic_section{
+.pic_section {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
 }
 
 .pic_main {
+    position: relative;
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pic_main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .buttons button {
@@ -90,7 +107,7 @@ body {
     padding: 10px 20px;
     margin-right: 10px;
     background-color: gray;
-    color: gray;
+    color: white;
 }
 
 .buttons button:hover {
@@ -122,16 +139,16 @@ body {
     width: 40%;
     border-radius: 5px;
     text-align: left;
-    background-color: gray;
+    background-color: rgb(83, 157, 210);
 }
 
 .about_2_section ul {
     list-style: none;
 }
 
-.about_2-section ul li h2 {
+.about_2_section ul li h2 {
     margin-top: 10px;
-    color: black;
+    color: white;
 }
 
 .education_section{
@@ -169,7 +186,7 @@ body {
 .education1{
     border-radius:5%;
     padding: 5%;
-    background-color: gray;
+    background-color: black ;
 }
 .education1 .education_name{
     text-align: center;
@@ -207,7 +224,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
-    background-color:gray;
+    background-color: gray;
 }
 
 .skills,
@@ -233,7 +250,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     margin: 10px 0;
-    background-color: gray;
+    background-color: white;
 }
 
 .i_was_there {
@@ -251,6 +268,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    color: black;
 }
 
 .feedback {
@@ -270,6 +288,7 @@ body {
     text-align: center;
     background-color: white;
     box-shadow: 0 0 10px black;
+    color: black;
 }
 
 .img_say {
@@ -348,7 +367,7 @@ body {
 
 .contact_form form label {
     margin-bottom: 10px;
-    color: white;
+    color: #ffffff;
 }
 
 .contact_form form input,
