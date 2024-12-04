@@ -1,5 +1,5 @@
 body {
-    background-color: #e67e22;
+    background-color: gray;
     color: white;
 }
 
@@ -11,8 +11,8 @@ body {
     width: 20%;
     padding: 20px;
     min-width: 200px;
-    background-color: rgb(40, 40, 40);
-    box-shadow: 0 0 10px rgb(40, 40, 40);
+    background-color: white;
+    box-shadow: 0 0 10px gray;
     z-index: 10;
 }
 
@@ -33,7 +33,7 @@ body {
 .sidebar h2 {
     font-size: 25px;
     margin: 0;  
-    color: #e67e22;
+    color: gray;
     text-align: center; 
 }
 
@@ -54,11 +54,11 @@ body {
     padding: 10px 15px 0 0;
     text-decoration: none;
     display: block;
-    color: white;
+    color: black;
 }
 
 .sidebar nav ul li a:hover {
-    background-color: #e67e22;
+    background-color: gray;
 }
 
 .main-content {
@@ -72,12 +72,12 @@ body {
 .main-content h1,
 .main-content h2,
 .main-content h3 {
-    color: white;
+    color: black;
     margin-bottom: 15px;
 }
 
 .main-content h1 span,h2 span,h3 span {
-    color: #e67e22;
+    color: gray;
 }
 
 .pic_section {
@@ -106,19 +106,19 @@ body {
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
-    background-color: #e67e22;
+    background-color: gray;
     color: white;
 }
 
 .buttons button:hover {
-    background-color: #e67e22;
+    background-color: gray;
 }
 
 .about_section {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: white;
 }
 
 .about {
@@ -131,7 +131,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     margin: 10px 0;
-    background-color: rgb(40, 40, 40);
+    background-color: gray;
 }
 
 .about_2_section {
@@ -155,7 +155,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     margin: 10px 0;
-    background-color: rgb(40, 40, 40);
+    background-color: gray;
 }
 
 .education_section{
@@ -163,7 +163,7 @@ body {
     flex-direction: row;
     height: auto;
     padding: 20px;
-    background-color: black;
+    background-color: white;
 }
 
 .education_1 {
@@ -175,7 +175,7 @@ body {
     font-size: 50px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    color: white;
+    color: black;
 
 }
 .education_1 h1{
@@ -186,16 +186,16 @@ body {
 .education1{
     border-radius:5%;
     padding: 5%;
-    background-color: rgb(40, 40, 40) ;
+    background-color: black ;
 }
 .education1 .education_name{
     text-align: center;
     padding: 10px;
-    background-color: rgb(83, 157, 210);
+    background-color: white;
 }
 .education1 p{
     padding:10px;
-    background-color: rgb(40, 40, 40);
+    background-color: gray;
 }
 .education_block2 {
     width: 50%;
@@ -212,7 +212,7 @@ body {
     font-size: 50px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    color: white;
+    color: black;
 }
 
 .skill_block1{
@@ -224,7 +224,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
-    background-color: rgb(83, 157, 210);
+    background-color: gray;
 }
 
 .skills,
@@ -233,7 +233,7 @@ body {
     flex-direction: row;
     height: auto;
     padding: 20px;
-    background-color: black;
+    background-color: white;
 }
 
 .skill_section ul {
@@ -250,7 +250,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     margin: 10px 0;
-    background-color: rgb(40, 40, 40);
+    background-color: white;
 }
 
 .i_was_there {
@@ -268,6 +268,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    color: black;
 }
 
 .feedback {
@@ -285,8 +286,9 @@ body {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    background-color: rgb(83, 157, 210);
+    background-color: white;
     box-shadow: 0 0 10px black;
+    color: black;
 }
 
 .img_say {
@@ -330,8 +332,8 @@ body {
     padding: 20px;
     width: 50%;
     border-radius: 5px;
-    background-color: rgb(40, 40, 40);
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .contact_details ul {
@@ -355,7 +357,7 @@ body {
     padding: 20px;
     width: 50%;
     border-radius: 5px;
-    background-color: rgb(40, 40, 40);
+    background-color: gray;
 }
 
 .contact_form form {
@@ -380,6 +382,6 @@ body {
 .contact_form form input {
     border: none;
     cursor: pointer;
-    background-color: #E67E22;
+    background-color: gray;
     color: white;
 }

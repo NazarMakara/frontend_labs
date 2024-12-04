@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings with Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main class="job_box">
+    <div class="filter">
+      <button class="filter_button" onclick="clearFilter()">Clear Filter</button>
+      <div id="content" class="content"></div>
+    </div>
+</body>
+
+<section class="job_card featured">
+    <div class="job_header">
+      <h2>Photosnap</h2>
+      <span class="badge new">NEW</span>
+      <span class="badge featured">FEATURED</span>
+    </div>
+  <h3>Senior Frontend Developer</h3>
+  <div class="job_info">
+    <span>1d ago</span>
+    <span>Full Time</span>
+    <span>USA only</span>
+  </div>
+  <div class="job_tags">
+    <button class="tag" onclick="Filter('Frontend')">Frontend</button>
+    <button class="tag" onclick="Filter('Senior')">Senior</button>
+    <button class="tag" onclick="Filter('HTML')">HTML</button>
+    <button class="tag" onclick="Filter('CSS')">CSS</button>
+    <button class="tag" onclick="Filter('JavaScript')">JavaScript</button>
+</div>
+</section>
+
+<section class="job_card new">
+  <div class="job_header">
+    <h2>Manage</h2>
+    <span class="badge new">NEW</span>
+  </div>
+  <h3>Fullstack Developer</h3>
+  <div class="job_info">
+    <span>1d ago</span>
+    <span>Part Time</span>
+    <span>Remote</span>
+  </div>
+  <div class="job_tags">
+    <button class="tag" onclick="Filter('Fullstack')">Fullstack</button>
+    <button class="tag" onclick="Filter('Midweight')">Midweight</button>
+    <button class="tag" onclick="Filter('Python')">Python</button>
+    <button class="tag" onclick="Filter('React')">React</button>
+  </div>
+</section>
+
+<section class="job_card new">
+  <div class="job_header">
+    <h2>Account</h2>
+    <span class="badge new">NEW</span>
+  </div>
+  <h3>Junior Frontend Developer</h3>
+  <div class="job_info">
+    <span>2d ago</span>
+    <span>Part Time</span>
+    <span>USA only</span>
+  </div>
+  <div class="job_tags">
+    <button class="tag" onclick="Filter('Frontend')">Frontend</button>
+    <button class="tag" onclick="Filter('Junior')">Junior</button>
+    <button class="tag" onclick="Filter('React')">React</button>
+    <button class="tag" onclick="Filter('Sass')">Sass</button>
+    <button class="tag" onclick="Filter('JavaScript')">JavaScript</button>
+  </div>
+</section>
+
+<section class="job_card">
+  <div class="job_header">
+    <h2>MyHome</h2>
+  </div>
+  <h3>Junior Frontend Developer</h3>
+  <div class="job_info">
+    <span>5d ago</span>
+    <span>Contract</span>
+    <span>USA only</span>
+  </div>
+  <div class="job_tags">
+    <button class="tag" onclick="Filter('Frontend')">Frontend</button>
+    <button class="tag" onclick="Filter('Junior')">Junior</button>
+    <button class="tag" onclick="Filter('CSS')">CSS</button>
+  </div>
+</section>
+<section class="job_card">
+
+  <div class="job_header">
+    <h2>Loop Studios</h2>
+  </div>
+  <h3>Software Engineer</h3>
+  <div class="job_info">
+    <span>1w ago</span>
+    <span>Full Time</span>
+    <span>Remote</span>
+  </div>
+  <div class="job_tags">
+    <button class="tag" onclick="Filter('Fullstack')">Fullstack</button>
+    <button class="tag" onclick="Filter('Midweight')">Midweight</button>
+    <button class="tag" onclick="Filter('JavaScript')">JavaScript</button>
+    <button class="tag" onclick="Filter('Ruby')">Ruby</button>
+  </div>
+</section>
+<section class="job_card">
+
+  <div class="job_header">
+    <h2>FaceIt</h2>
+    <span class="new">NEW</span>
+  </div>
+  <h3>Junior Backend Developer</h3>
+  <div class="job_info">
+    <span>2w ago</span>
+    <span>Full Time</span>
+    <span>UK only</span>
+  </div>
+  <div class="job_tags">
+    <button class="tag" onclick="Filter('Backend')">Backend</button>
+    <button class="tag" onclick="Filter('Junior')">Junior</button>
+    <button class="tag" onclick="Filter('Ruby')">Ruby</button>
+    <button class="tag" onclick="Filter('SQL')">SQL</button>
+  </div>
+</section>
+<section class="job_card">
+
+  <div class="job_header">
+    <h2>Shortly</h2>
+  </div>
+  <h3>Junior Developer</h3>
+  <div class="job_info">
+    <span>2w ago</span>
+    <span>Part Time</span>
+    <span>UK only</span>
+  </div>
+  <div class="job_tags">
+    <button class="tag" onclick="Filter('Frontend')">Frontend</button>
+    <button class="tag" onclick="Filter('Junior')">Junior</button>
+    <button class="tag" onclick="Filter('HTML')">HTML</button>
+    <button class="tag" onclick="Filter('CSS')">CSS</button>
+  </div>
+</section>
+  </main>
+  <script src="script.js"></script>
+</html>

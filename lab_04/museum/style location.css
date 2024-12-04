@@ -109,3 +109,143 @@ footer {
         }
     }
 }
+
+@media (max-width: 768px) {
+    .map {
+        height: 400px;
+    }
+
+    .button {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .left_text {
+        h1 {
+            font-size: 50px;
+            line-height: 50px;
+        }
+    }
+
+    .right_text {
+        h2 {
+            font-size: 28px;
+            line-height: 30px;
+        }
+
+        p {
+            width: 100%;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    button {
+        left: 20px;
+        top: 20px;
+        width: auto;
+        height: 50px;
+        padding: 10px;
+
+        .button_right {
+            width: auto;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        .button_left {
+            font-size: 25px;
+            width: 50px;
+            height: 50px;
+        }
+
+        &:hover {
+            .button_right {
+                background-color: #D5966C;
+            }
+            .button_left {
+                background-color: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .map {
+        height: 300px; 
+    }
+
+    .button {
+        padding: 10px;
+    }
+
+    .left_text {
+        h1 {
+            font-size: 40px;
+            line-height: 45px;
+        }
+    }
+
+    .right_text {
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        p {
+            width: 100%;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+
+    button {
+        left: 10px;
+        top: 10px;
+        width: auto;
+        height: 50px;
+        padding: 10px;
+
+        .button_right {
+            width: auto;
+            font-size: 16px;
+            padding: 8px;
+        }
+
+        .button_left {
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+        }
+
+        &:hover {
+            .button_right {
+                background-color: #D5966C;
+            }
+            .button_left {
+                background-color: black;
+            }
+        }
+    }
+
+    footer {
+        .footer {
+            flex-direction: column;
+            height: auto;
+            padding: 10px;
+        }
+
+        .footer_text {
+            flex-direction: column;
+            text-align: center;
+            padding: 10px;
+
+            p {
+                font-size: 14px;
+                line-height: 20px;
+                width: auto;
+            }
+        }
+    }
+}
